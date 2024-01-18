@@ -1,0 +1,59 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background: #fff;
+    color: #333333;
+}
+
+.hero-left div {
+    width: 50%;
+}
+
+.hero-left div img {
+    width: 100%;
+}
+
+.hero-right h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.hero-right p {
+    margin: 40px 0;
+    font-size: 17px;
+}
+
+.hero-right .explore-btn {
+    background: #ff900e;
+    padding: 15px 22px;
+    border: 1px solid #152c47;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.5s ease all;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.hero-right .explore-btn:hover {
+    background: #152c47;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .hero-right {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .hero-right {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .hero-right {
+        margin-top: 50px;
+    }
+}
