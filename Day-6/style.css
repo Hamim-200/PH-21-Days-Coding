@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+
+body {
+    font-family: "Heebo", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background: #fff;
+    color: #333333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0;
+}
+
+/* Navbar CSS Start */
+
+.navbar .logo {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Heebo", sans-serif;
+}
+
+.navbar .menu li a {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Heebo", sans-serif;
+}
+
+/* Navbar CSS End */
+
+/*Banner Section CSS Start*/
+
+.hero-area {
+    margin-top: 140px;
+    margin-bottom: 71px;
+}
+
+.hero-ctn h1 {
+    color: #21243D;
+    font-family: "Heebo", sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.hero-ctn p {
+    color: #21243D;
+    font-size: 16px;
+    font-family: "Heebo", sans-serif;
+    font-weight: 400;
+    margin: 40px 0;
+}
+
+.hero-btn {
+    border-radius: 2px;
+    border: 1px dashed #000;
+    background: #FF6464;
+    padding: 15px 20px;
+    text-align: center;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Heebo", sans-serif;
+    transition: 0.5s ease all;
+    text-decoration: none;
+
+}
+
+.hero-btn:hover {
+    background: rgb(242, 57, 57);
+}
+
+/*Banner Section CSS End*/
+
+
+
+/* recent-post-area CSS start */
+
+.recent-post-area {
+    background: #edf7fa;
+    padding-top: 7px;
+    padding-bottom: 32px;
+}
+
+.title-mobile {
+    display: none;
+}
+
+.title-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 27px;
+    padding-bottom: 22px;
+}
+
+.title-area h4,
+.title-mobile h3 {
+    color: #21243D;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 60px;
+    font-family: "Heebo", sans-serif;
+}
+
+.title-area p {
+    color: #00A8CC;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Heebo", sans-serif;
+}
+
+.recent-lft {
+    padding: 24px 22px;
+}
+
+.recent-lft h2 {
+    color: #21243D;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Heebo", sans-serif;
+}
+
+.recent-lft .center-border {
+    margin: 17px 0;
+}
+
+.recent-lft .center-border li {
+    border-right: 1px solid #000000;
+    padding-right: 20px;
+    color: #21243D;
+    font-family: "Heebo", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.recent-lft .center-border li:last-child {
+    border: none;
+}
+
+.recent-lft p {
+    color: #21243D;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Heebo", sans-serif;
+
+}
+/* recent-post-area CSS end */
+
+
+/* MEDIA QUERY */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar {
+        position: relative;
+    }
+
+    .navbar button {
+        position: absolute;
+        right: 10px;
+        top: 15px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+    .navbar .logo {
+        opacity: 0;
+    }
+
+    .hero-area .row {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .hero-area {
+        margin-top: 33px;
+        margin-bottom: 59px;
+    }
+
+    .hero-ctn h1 {
+        margin-top: 43px;
+        margin-bottom: 21px;
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .title-area {
+        display: none;
+
+    }
+
+    .title-mobile {
+        display: block;
+    }
+
+    .recent-lft h2 {
+        font-size: 22px;
+    }
+
+    .recent-lft p {
+        font-size: 15.3px;
+    }
+
+    .recent-lft {
+        margin-bottom: 17px;
+    }
+
+    .navbar {
+        position: relative;
+    }
+
+    .navbar button {
+        position: absolute;
+        right: 10px;
+        top: 15px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .navbar .logo {
+        opacity: 0;
+    }
+
+    .hero-area .row {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .hero-area {
+        margin-top: 33px;
+        margin-bottom: 59px;
+    }
+
+    .hero-ctn h1 {
+        margin-top: 43px;
+        margin-bottom: 21px;
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .title-area {
+        display: none;
+
+    }
+
+    .title-mobile {
+        display: block;
+    }
+
+    .recent-lft h2 {
+        font-size: 22px;
+    }
+
+    .recent-lft p {
+        font-size: 15.3px;
+    }
+
+    .recent-lft {
+        margin-bottom: 17px;
+    }
+
+    .navbar {
+        position: relative;
+    }
+
+    .navbar button {
+        position: absolute;
+        right: 10px;
+        top: 15px;
+    }
+
+}
