@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+  </head>
+  <body class="mx-5 md:mx-10 lg:mx-20 mt-4 max-w-[1500px] xl:mx-auto">
+    <header class="flex items-center justify-between mb-4">
+      <div>
+        <figure class="flex items-center gap-4">
+          <img src="./assets/img/brand_logo.png" alt="Brand Logo" />
+          <p class="font-extrabold text-blue-700 text-xl"><em>The</em>Box</p>
+        </figure>
+      </div>
+      <div class="hidden md:flex w-1/2 justify-around">
+        <a href="#" class="hover:text-yellow-400">Home</a>
+        <a href="./play.html" class="hover:text-yellow-400">Play</a>
+        <a href="#" class="hover:text-yellow-400">Projects</a>
+        <a href="#" class="hover:text-yellow-400">Services</a>
+        <a href="#" class="hover:text-yellow-400">Contact Us</a>
+      </div>
+      <div class="block md:hidden">
+        <i class="las la-bars"></i>
+      </div>
+    </header>
+
+    <main>
+      <!-- Banner Section -->
+      <section class="relative">
+        <img
+          class="lg:w-full min-h-[600px] object-cover"
+          src="./assets/img/banner.png"
+          alt=""
+        />
+        <div
+          class="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-slate-50 to-[#fff0]"
+        ></div>
+        <div
+          class="absolute top-0 left-0 w-full h-full flex justify-start md:items-center pt-10 ps-5 lg:ps-16 text-5xl font-semibold max-w-96"
+        >
+          <h1>Builing Things is our mission.</h1>
+        </div>
+        <div
+          class="absolute bottom-0 right-0 w-full h-full flex justify-end items-end"
+        >
+          <div
+            class="text-center bg-blue-700 text-white pt-4 flex flex-col justify-between"
+          >
+            <h2 class="font-bold">Feature Projects</h2>
+            <p class="p-4">The National University of Architecture</p>
+            <div class="bg-black flex justify-around">
+              <button class="text-center">
+                <i class="las la-long-arrow-alt-left"></i>Back
+              </button>
+              <button class="text-center">
+                Next<i class="las la-long-arrow-alt-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Practice Section -->
+      <section class="my-16 flex flex-col md:flex-row gap-8">
+        <aside class="md:w-1/2">
+          <article>
+            <h2
+              class="font-extrabold text-5xl border-solid border-s-4 ps-4 border-orange-500"
+            >
+              Features you will love &amp; enjoy
+            </h2>
+            <p class="my-4">
+              Ipsum officia suscipit esse fugiat autem Atque quas in
+              necessitatibus quisquam corrupti? Illum earum qui reiciendis
+              mollitia esse? Eos culpa debitis aut a ab! Voluptates quas earum
+              rem tenetur saepe.
+            </p>
+          </article>
+          <div class="flex flex-col gap-4">
+            <article class="shadow-md hover:shadow-xl max-w-[600px] p-4">
+              <h3 class="font-bold text-5xp">Desktop &amp; Mobile Version</h3>
+              <p>
+                Elit laudantium quo cum numquam dicta? Vitae commodi itaque esse
+                ea et Dicta ut iste excepturi ut ea. Accusantium molestias
+              </p>
+            </article>
+            <article class="shadow-md hover:shadow-xl max-w-[600px] p-4">
+              <h3 class="font-bold text-5xp">Desktop &amp; Mobile Version</h3>
+              <p>
+                Elit laudantium quo cum numquam dicta? Vitae commodi itaque esse
+                ea et Dicta ut iste excepturi ut ea. Accusantium molestias
+              </p>
+            </article>
+            <article class="shadow-md hover:shadow-xl max-w-[600px] p-4">
+              <h3 class="font-bold text-5xp">Desktop &amp; Mobile Version</h3>
+              <p>
+                Elit laudantium quo cum numquam dicta? Vitae commodi itaque esse
+                ea et Dicta ut iste excepturi ut ea. Accusantium molestias
+              </p>
+            </article>
+            <article class="shadow-md hover:shadow-xl max-w-[600px] p-4">
+              <h3 class="font-bold text-5xp">Desktop &amp; Mobile Version</h3>
+              <p>
+                Elit laudantium quo cum numquam dicta? Vitae commodi itaque esse
+                ea et Dicta ut iste excepturi ut ea. Accusantium molestias
+              </p>
+            </article>
+          </div>
+        </aside>
+
+        <aside class="order-first md:order-last md:w-1/2 flex items-center">
+          <figure class="relative">
+            <img class="w-full" src="./assets/img/vaiya.png" alt="" />
+            <article
+              class="text-center bg-orange-400 text-white absolute top-0 left-0 md:top-[initial] md:-bottom-5 md:-left-5 p-5"
+            >
+              <p class="font-extrabold text-3xl">10+ Year</p>
+              <p class="font-bold text-xl">Experience</p>
+            </article>
+          </figure>
+        </aside>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
