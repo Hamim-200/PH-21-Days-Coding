@@ -1,0 +1,7 @@
+DOM - Document Object Model: The DOM is a hierarchical tree-like structure that represents the HTML or XML document. It provides a way for scripts to access and manipulate the content and structure of a document.
+
+Nodes: Nodes are the building blocks of the DOM tree. There are different types of nodes, such as element nodes, attribute nodes, and text nodes. Elements, attributes, and text content are all represented as nodes.
+
+Element Nodes: Element nodes represent HTML elements in the DOM tree. They have properties and methods that allow you to access and manipulate attributes, content, and other aspects of the element.
+
+DOM Methods and Properties: JavaScript provides various methods and properties for interacting with the DOM. For example, getElementById, getElementsByClassName, getElementsByTagName are methods to access specific elements, and properties like innerHTML or textContent allow you to get or set the content of an element.
